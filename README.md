@@ -1,1 +1,1 @@
-# Fight Fake News 2020
+# Project name: Covid-19: Fight Fake News 2020
