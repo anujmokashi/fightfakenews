@@ -29,18 +29,43 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css" />
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-165484267-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-165484267-1");
+    </script>
+    <meta
+      name="google-site-verification"
+      content="EPhKpWd9RUsrYaOqTfjccMM1HWDXS_K4B5moBRJqju4"
+    />
+    <script>
+      if (location.protocol != "https:") {
+        location.href =
+          "https:" +
+          window.location.href.substring(window.location.protocol.length);
+      }
+    </script>
   </head>
 
   <body>
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-      <a href="./index.html"
-        ><img
-          class="navbar-logo"
-          src="https://cdn.glitch.com/ef25c626-c4be-44c2-bc08-57d79187c525%2F2.png?v=1587714122788"
-      /></a>
-      <a class="navbar-brand m-0 h2" href="./index.html">
-        Covid-19: Fight Fake News</a
-      >
+
+      <a href="./index.html">
+        <img class="navbar-logo" src="https://cdn.glitch.com/ef25c626-c4be-44c2-bc08-57d79187c525%2F2.png?v=1587714122788"/></a>
+      
+      <a class="navbar-brand m-0 h2" id="nav_bar_top" href="./index.html" style="padding-top:0px">Covid-19: Fight Fake News</a>
+
+      
+      
       <button
         class="navbar-toggler"
         type="button"
@@ -76,7 +101,7 @@
     />
 
     <h4 id="captionheader" style="color: 707070f; font-size: 1;">
-      Fact-check: Misleading Stories and Fake News
+      Fact-check Misleading Claims & Fake News Stories
     </h4>
     <br />
 
@@ -94,6 +119,10 @@
     </div>
     <br />
     <div></div>
+    <h4 style="color: #2E64FE; font-size: 1;">
+      Connect With Us
+    </h4>
+    <br />
     <div class="col-md-12 flex-center" style="align: center;">
       <a href="https://wa.me/12029522900" target="_blank" class="wp-ic"
         ><i class="fab fa-whatsapp ml-1 mr-1 fa-2x"></i
@@ -107,9 +136,6 @@
         class="tw-ic"
         ><i class="fab fa-twitter ml-5 mr-1 fa-2x"></i
       ></a>
-    </div>
-    <div style="color: #2E64FE;">
-      Contact Us
     </div>
 
     <div id="search-results">
@@ -136,28 +162,33 @@
   </body>
 
   <nav class="navbar fixed-bottom navbar-dark bg-dark">
-    <div
-        class="navbar-nav ml-right d-none d-sm-block"
-        style="color: #A4A4A4;"
+    <div class="navbar-nav ml-right d-none d-sm-block" style="color: #A4A4A4;">
+      Copyright ©️ 2020
+      <a class="" href="http://www.FightFakeNews.live" style="color: #A4A4A4;"
+        >FightFakeNews.live</a
+      >, All Rights Reserved
+    </div>
+    <div class="navbar-nav m-auto d-block d-sm-none" style="color: #A4A4A4;">
+      Copyright ©️ 2020
+      <a class="" href="http://www.FightFakeNews.live" style="color: #A4A4A4;"
+        >FightFakeNews.live</a
+      >, All Rights Reserved
+    </div>
+    <div class="navbar-nav ml-auto d-none d-sm-block">
+      <a class="nav-item" href="./terms.html" style="color: #A4A4A4;"
+        >Terms of Use</a
       >
-        Copyright ©️ 2020
-        <a class="" href="http://www.FightFakeNews.live" style="color: #A4A4A4;"
-          >FightFakeNews.live</a
-        >, All Rights Reserved
-      </div>
-      <div class="navbar-nav m-auto d-block d-sm-none" style="color: #A4A4A4;">
-        Copyright ©️ 2020
-        <a class="" href="http://www.FightFakeNews.live" style="color: #A4A4A4;"
-          >FightFakeNews.live</a
-        >, All Rights Reserved
-      </div>
-      <div class="navbar-nav ml-auto d-none d-sm-block">
-        <a class="nav-item pr-1" href="./terms.html" style="color: #A4A4A4;">Terms of Use</a>
-        <a class="nav-item pl-1" href="./privacy.html" style="color: #A4A4A4;"> Privacy Policy</a>
-      </div>
-      <div class="navbar-nav m-auto flex-row d-block d-sm-none">
-        <a class="nav-item pr-1" href="./terms.html" style="color: #A4A4A4;">Terms of Use</a>
-        <a class="nav-item pl-1" href="./privacy.html" style="color: #A4A4A4;"> Privacy Policy</a>
-      </div>
+      <a class="nav-item" href="./privacy.html" style="color: #A4A4A4;"
+        >| Privacy Policy</a
+      >
+    </div>
+    <div class="navbar-nav m-auto flex-row d-block d-sm-none">
+      <a class="nav-item" href="./terms.html" style="color: #A4A4A4;"
+        >Terms of Use</a
+      >
+      <a class="nav-item" href="./privacy.html" style="color: #A4A4A4;"
+        >| Privacy Policy</a
+      >
+    </div>
   </nav>
 </html>
