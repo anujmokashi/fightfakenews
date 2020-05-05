@@ -5,4 +5,5 @@ $("#searchbar").click(() => {
 window.onload = function() {
   document.getElementById("gsc-i-id1").placeholder =
     "Type or Paste News Here...";
+  document.getElementById("gsc-i-id1").focus();
 };
